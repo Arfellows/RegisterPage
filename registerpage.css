@@ -13,7 +13,7 @@ body {
 } 
 
 #Header a{ 
-    padding: 8 px 20px ;
+    padding: 8px 20px ;
     margin: 10px;
     background-color: #0080ff;
     text-decoration: none;
@@ -32,4 +32,34 @@ body {
 
 #Form h1{  
     margin: 10px;
+}
+
+#Form Input, #Form button{
+    margin: 15px 0px;
+    width: 80%;
+    padding: 5px
+}
+
+#Form #submit{
+    width: 85%;
+    background-color: #0080ff;
+    color: white;
+    cursor: pointer;
+    margin-bottom: 5px;
+}
+
+#Images{
+    text-align: center;
+    margin-top: 30px;
+}
+
+.social{
+    width: 40px;
+    height: 40px;
+    border-radius: 25px;
+    margin: 0px 5px;
+}
+
+#Images a{
+    text-decoration: none;
 }
